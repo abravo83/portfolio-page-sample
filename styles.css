@@ -1,0 +1,181 @@
+/* Web palette reference: */
+/* {"Indian Red":"#db5461","Pacific Blue":"#489fb5","Dark Slate Blue":"#593c8f","Light Green":"#7dde92","Maize Crayola":"#f2c14e"} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  width: 100%;
+  height: 12vh;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1rem;
+  text-align: right;
+  color: #593c8f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(125, 222, 146);
+  z-index: 3;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  position: relative;
+  top: 40%;
+  right: 5%;
+}
+
+main {
+  margin-top: 12vh;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: #f2c14e;
+  font-family: "Caveat", cursive;
+  font-size: 10vw;
+  color: black;
+}
+
+#welcome-section h1 {
+  padding: 40% 30px 20px 30px;
+}
+
+#welcome-section span {
+  color: #db5461;
+}
+
+#projects {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  height: 85vh;
+  width: 100%;
+  padding-top: 15vh;
+  background-color: #489fb5;
+}
+
+.section-header {
+  width: 100%;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 10vw;
+  margin-bottom: 0px;
+}
+
+
+.picture-text {
+  width: 100%;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.project-tile {
+  width: 150px;
+  height: 110px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+
+.project-tile a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.picture {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  top: -20%;
+  left: 5%;
+  background-color: black;
+}
+.picture-text {
+  position: relative;
+  top: -50%;
+}
+
+.picture-link {
+  text-decoration: none;
+  color: black;
+}
+
+#contact {
+  display: flex;
+  flex-flow: right;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  padding-top: 15vh;
+  background-color: #db5461;
+}
+
+#contact-container {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+
+#brands {
+  margin-top: 100px;
+  font-size: 10vw;
+}
+
+#brands a {
+  color: black;
+  text-decoration: none;
+  margin: 6vw;
+}
+
+#farewell {
+  margin-top: 30vh;
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  color: black;
+}
+
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgb(125, 222, 146);
+}
+
+@media screen and (min-width: 500px) {
+  #welcome-section h1 {
+    padding-top: 40vh;
+    font-size: 10vw;
+  }
+
+  #farewell {
+  margin-top: 20vh;
+}
+
+@media screen and (min-width: 800px) {
+  #welcome-section h1 {
+    padding-top: 40vh;
+    font-size: 7vw;
+  }
+
+  #contact, #contact-container {
+   height: 150vh;
+   padding-top: 0;
+  }
+}
