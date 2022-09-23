@@ -4,4 +4,4 @@
 
 Just a portfolio site following freeCodeCamp directives for the project.
 
-I belive you can see a live sample on this addres to [my codesandbox copy of the project](https://hg8bh4.csb.app/)
+I believe you can see a live sample on this address to [my codesandbox copy of the project](https://hg8bh4.csb.app/)
